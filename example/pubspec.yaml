@@ -8,12 +8,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audio_session: ^0.1.21
+  audio_session:
+    git: https://github.com/sumitsharansatsangi/audio_session.git
   rxdart: ^0.28.0
   just_audio:
     path: ../../just_audio
   just_audio_background:
-    path: ..
+    path: ../
 
 # Uncomment when testing platform interface changes.
 # dependency_overrides:
